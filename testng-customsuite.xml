@@ -5,8 +5,12 @@
     <classes>
       
       <class name="RL.PageLoad.TestCC"/> 
+
       <class name="RL.PageLoad.TestCatalyst"/>  
       <!-- <class name="RL.PageLoad.TestCMP"/> --> 
+
+        
+
     </classes>
   </test> <!-- Default test -->
 </suite> <!-- Default suite -->
