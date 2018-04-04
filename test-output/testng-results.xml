@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="167813" started-at="2018-04-04T11:36:54Z" finished-at="2018-04-04T11:39:41Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="167813" started-at="2018-04-04T11:36:54Z" finished-at="2018-04-04T11:39:41Z">
+      <class name="RL.PageLoad.TestCC">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:RL.PageLoad.TestCC@ae45eb6]" name="beforeClass" is-config="true" duration-ms="21555" started-at="2018-04-04T17:06:54Z" finished-at="2018-04-04T17:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestCommandCenter()[pri:0, instance:RL.PageLoad.TestCC@ae45eb6]" name="TestCommandCenter" duration-ms="37541" started-at="2018-04-04T17:07:15Z" finished-at="2018-04-04T17:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCommandCenter -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:RL.PageLoad.TestCC@ae45eb6]" name="afterClass" is-config="true" duration-ms="7150" started-at="2018-04-04T17:07:53Z" finished-at="2018-04-04T17:08:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- RL.PageLoad.TestCC -->
+      <class name="RL.PageLoad.TestCatalyst">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:RL.PageLoad.TestCatalyst@14acaea5]" name="beforeClass" is-config="true" duration-ms="25295" started-at="2018-04-04T17:08:00Z" finished-at="2018-04-04T17:08:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="TestCatalystPageLoad()[pri:0, instance:RL.PageLoad.TestCatalyst@14acaea5]" name="TestCatalystPageLoad" duration-ms="69208" started-at="2018-04-04T17:08:25Z" finished-at="2018-04-04T17:09:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCatalystPageLoad -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:RL.PageLoad.TestCatalyst@14acaea5]" name="afterClass" is-config="true" duration-ms="7041" started-at="2018-04-04T17:09:34Z" finished-at="2018-04-04T17:09:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- RL.PageLoad.TestCatalyst -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

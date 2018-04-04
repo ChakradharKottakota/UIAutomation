@@ -49,6 +49,7 @@ public class TestCC  {
 	  
 	  driver.get("https://cc.rlcatalyst.com");
 	  Thread.sleep(3000);
+	  System.out.println(driver.getCurrentUrl());
 	  driver.findElement(By.xpath("//input[@id='mdl-textfield-0']")).sendKeys("relevance/relevance");
 	  driver.findElement(By.xpath("//input[@id='mdl-textfield-1']")).sendKeys("Relevance@123");
 	  driver.findElement(By.xpath("//button[@class='signUpButton marginTop10 mdl-button mdl-button--raised mdl-button--primary']")).click();
@@ -56,7 +57,7 @@ public class TestCC  {
 
   }
   
-  @Test
+  @Test(priority =1)
   public void TestCommandCenter() throws InterruptedException{
 	 
 

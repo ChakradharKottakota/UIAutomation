@@ -56,7 +56,7 @@ public class TestCatalyst  {
 
   }
   
-  @Test(priority =1)
+  @Test(priority =2)
   public void TestCatalystPageLoad() throws InterruptedException{
 	  
 	    
