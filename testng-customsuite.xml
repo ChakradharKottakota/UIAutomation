@@ -4,9 +4,10 @@
   <test verbose="2" name="Default test">
     <classes>
       
-      <class name="RL.PageLoad.TestCC"/> 
-
-      <class name="RL.PageLoad.TestCatalyst"/>  
+      
+      <class name="RL.PageLoad.InfiniteLoopCC"/> 
+      <!-- <class name="RL.PageLoad.TestCC"/> -->
+      <!-- <class name="RL.PageLoad.TestCatalyst"/>   -->
       <!-- <class name="RL.PageLoad.TestCMP"/> --> 
 
         

@@ -24,16 +24,7 @@ public class CatalystPageLoad {
 		System.out.println(driver.getCurrentUrl());
 		
 		 
-		  /*try {
-			  driver.executeScript("window.location.href='http://neo.rlcatalyst.com/cat3/#/dashboard/bots/library/audittrail'") ; 
-              driver.get("http://neo.rlcatalyst.com/cat3/#/dashboard/bots/library/audittrail");
-			  Thread.sleep(5000);
-			  System.out.println(driver.getCurrentUrl());
-		  
-		  } catch (Exception e) {
-				// TODO Auto-generated catch block
-				e.printStackTrace();
-			}*/
+		 
 		  
 		  driver.get("http://neo.rlcatalyst.com/cat3/#/dashboard/bots/library/audittrail");
 		  Thread.sleep(5000);
@@ -64,10 +55,10 @@ public class CatalystPageLoad {
 		  //driver.navigate().to("http://neo.rlcatalyst.com/cat3/#/dashboard/bots/library/library");
 		 // driver.navigate().to(arg0);
 		  Thread.sleep(5000);
-		  driver.findElement(By.id("liuserinfo")).click();
+		  /*driver.findElement(By.id("liuserinfo")).click();
 		  Thread.sleep(5000);
 		  driver.findElement(By.id("signOut")).click();
-		  driver.quit();
+		  driver.quit();*/
 		  
 	}
 }

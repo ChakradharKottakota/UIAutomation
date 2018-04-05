@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="RL.PageLoad.TestCC">
+      <class name="RL.PageLoad.InfiniteLoopCC">
         <methods>
-          <include name="beforeClass"/>
           <include name="TestCommandCenter"/>
-          <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- RL.PageLoad.TestCC -->
+      </class> <!-- RL.PageLoad.InfiniteLoopCC -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

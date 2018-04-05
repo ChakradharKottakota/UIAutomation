@@ -31,16 +31,11 @@ public class TestCC  {
 	  driver.quit();
 		
   }
- 
 
   @BeforeMethod
   public void beforeClass() throws InterruptedException {
 	  
-	 // File pathToBinary = new File("C:\\Users\\rle0210\\AppData\\Local\\Mozilla Firefox\\firefox.exe");
-		//FirefoxBinary ffBinary = new FirefoxBinary(pathToBinary);
-		//FirefoxProfile firefoxProfile = new FirefoxProfile();
-		//FirefoxDriver driver = new FirefoxDriver(ffBinary, firefoxProfile);
-		//FirefoxBinary driver;
+	 
 	  System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\chromedriver.exe");
 	  driver = new ChromeDriver();
 	  driver.manage().window().maximize();
@@ -70,12 +65,11 @@ public class TestCC  {
 		Recordset recordset1 = connection.executeQuery(strQuery);
 		
 		while (recordset.next()) {
-			recordset1.next();
-		//System.out.println(recordset1.getField("ExpectedPage"));
-		//System.out.println(recordset.getField("URL"));
+			  recordset1.next();
+		
 		String url=recordset.getField("URL");
 		driver.get(url);
-		Thread.sleep(4000);
+		Thread.sleep(3000);
 		String pageTitle=driver.getTitle();
 		System.out.println(pageTitle);
 		assertTrue(pageTitle.contains(recordset1.getField("ExpectedPage")), "Title mismatch");
@@ -89,7 +83,7 @@ public class TestCC  {
 		// TODO Auto-generated catch block
 		e.printStackTrace();
 		}
-  }
+    }
   
   }
  
