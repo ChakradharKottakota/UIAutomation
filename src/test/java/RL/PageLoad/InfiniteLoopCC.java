@@ -54,7 +54,7 @@ public class InfiniteLoopCC {
   
   @Test(priority =1)
   public void TestCommandCenter() throws InterruptedException{
-	 
+	    System.out.println("Started Test Case");
 
 		Fillo fillo = new Fillo();
 		try {
@@ -64,19 +64,19 @@ public class InfiniteLoopCC {
 	
 		Recordset recordset1 = connection.executeQuery(strQuery);
 		
-		
-		
+		System.out.println("Available Testcases " + recordset.getCount());
+
 		while (true) {
 			if(recordset.next() == false){
 				recordset.moveFirst();
-			}else{
-				recordset.next();
 			}
+				
 			   recordset1.next();
 		
 		String url=recordset.getField("URL");
 		driver.get(url);
-		Thread.sleep(10000);
+		System.out.println(driver.getCurrentUrl());
+		Thread.sleep(5000);
 		String pageTitle=driver.getTitle();
 		System.out.println(pageTitle);
 		assertTrue(pageTitle.contains(recordset1.getField("ExpectedPage")), "Title mismatch");
